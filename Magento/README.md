@@ -5,7 +5,7 @@ A Magento2 CE Docker image which is built with the Dockerfile under this repo ca
 ## Components
 This docker image currently contains the following components:
 
-1. Magento2 CE  **2.1.5**
+1. Magento2 CE  **2.1.6**
 2. PHP          **7.1.2**
 3. Apache HTTPD **2.4.25**
 4. MariaDB      **10.0+**
@@ -65,7 +65,7 @@ At the SETUP page, as shown below, you can change default values of these enviro
 ### Running on Docker engine's host
 The **docker run** command below will get you a container that has a Magento2 CE site connected to the builtin MariaDB, and has the builtin Redis cache server started, and has the builtin phpMyAdmin site enabled, and has the builtin cron started.
 ```
-docker run -e MAGENTO_BASE_URL=http://12.34.56.78/ -d -t -p 80:80 fanjeffrey/magento:ce-2.1.5
+docker run -e MAGENTO_BASE_URL=http://12.34.56.78/ -d -t -p 80:80 fanjeffrey/magento:ce-2.1.6
 ```
 
 The command below will connect the Magento2 CE site within your Docker container to a MySQL database server with version 5.6+.

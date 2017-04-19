@@ -45,7 +45,7 @@ ENV REDIS_HOME "/usr/local/redis"
 ENV PATH "$REDIS_HOME/bin":$PATH
 
 # magento ce
-ENV MAGENTO_VERSION "2.1.5"
+ENV MAGENTO_VERSION "2.1.6"
 ENV MAGENTO_PACKAGE "Magento-CE-$MAGENTO_VERSION.tar.gz"
 ENV MAGENTO_SOURCE "/usr/src/magento"
 ENV MAGENTO_HOME "/var/www/magento"
